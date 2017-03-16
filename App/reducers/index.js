@@ -1,17 +1,9 @@
 import * as types from '../actions/actionTypes';
 import * as actions from '../actions/actions';
 
-const initialState = {
-  navColor:'#fff',
-  navStyle:{
-    backgroundColor:'#ff585b', color:'#fff', padding:20
-  },
-  userDeets: {
-    email:"bachisuta@gmail.com",
-  }
-};
+const initialState = {};
 
-export function tinder(state = initialState, action = {}) {
+export function index(state = initialState, action = {}) {
   switch(action.type){
     case types.LOGIN:
       return {...state, };

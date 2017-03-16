@@ -19,10 +19,15 @@
     "preset": "jest-expo"
   },
   "dependencies": {
-    "expo": "^14.0.2",
+    "@expo/vector-icons": "^4.0.0",
+    "expo": "^15.0.0",
     "react": "~15.4.0",
     "react-native": "^0.41.2",
     "react-native-elements": "^0.9.7",
-    "react-native-swipe-cards": "^0.1.0"
+    "react-native-swipe-cards": "^0.1.0",
+    "react-native-vector-icons": "^4.0.0",
+    "react-redux": "^5.0.3",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0"
   }
 }
